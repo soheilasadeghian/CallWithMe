@@ -12,7 +12,7 @@ The website contains all the modules that meet the project requirement and is do
 ## Tech Stack: Asp.Net MVC, HTML, CSS, JavaScript, Bootstrap, JQuery, Ajax, SQL, EntityFramework
 
 
-__NOTE: PHP Mailer won't work on this deployed website. For that you need to download this whole project and run it locally on your PC with your SMTP email account in web.cofig.__
+__NOTE: Send Maile won't work on this deployed website. For that you need to download this whole project and run it locally on your PC with your SMTP email account in web.cofig.__
 
 
 ![alt text](https://github.com/soheilasadeghian/CallWithMe/blob/main/CallWithMe/Content/screenshot.png?raw=true)
