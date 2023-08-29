@@ -1,0 +1,128 @@
+﻿img
+{
+    display:block;
+    max-width:95%;
+    margin:0px auto;
+}
+.tana-animation.left-to-right-100 {
+    display: block;
+    -webkit-transform: translateX(-100px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.right-to-left-100 {
+    display: block;
+    -webkit-transform: translateX(100px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.left-to-right-150 {
+    display: block;
+    -webkit-transform: translateX(-150px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.right-to-left-150 {
+    display: block;
+    -webkit-transform: translateX(150px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.left-to-right-200 {
+    display: block;
+    -webkit-transform: translateX(-200px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.right-to-left-200 {
+    display: block;
+    -webkit-transform: translateX(200px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.left-to-right-300 {
+    display: block;
+    -webkit-transform: translateX(-300px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.right-to-left-300 {
+    display: block;
+    -webkit-transform: translateX(300px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+
+/* top bottom */
+
+.tana-animation.up-to-down-100 {
+    display: block;
+    -webkit-transform: translateY(-100px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.down-to-up-100 {
+    display: block;
+    -webkit-transform: translateY(100px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.up-to-down-150 {
+    display: block;
+    -webkit-transform: translateY(-150px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.down-to-up-150 {
+    display: block;
+    -webkit-transform: translateY(150px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.up-to-down-200 {
+    display: block;
+    -webkit-transform: translateY(-200px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.down-to-up-200 {
+    display: block;
+    -webkit-transform: translateY(200px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.up-to-down-300 {
+    display: block;
+    -webkit-transform: translateY(-300px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.tana-animation.down-to-up-300 {
+    display: block;
+    -webkit-transform: translateY(300px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+/* end of top bottom */
+
+.tana-animation.animation {
+    
+    -webkit-transform: translateX(0px);
+    opacity: 1;
+}

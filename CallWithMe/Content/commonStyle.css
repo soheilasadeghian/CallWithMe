@@ -1,0 +1,141 @@
+﻿.vertical-10 {
+    clear: both;
+    height: 10px;
+    display: block;
+}
+.left
+{
+    float:left !important;
+}
+.right{
+    float:right !important;
+}
+.vertical-20 {
+    clear: both;
+    height: 20px;
+    display: block;
+}
+
+.vertical-30 {
+    clear: both;
+    height: 30px;
+    display: block;
+}
+
+.vertical-40 {
+    clear: both;
+    height: 40px;
+    display: block;
+}
+
+.vertical-50 {
+    clear: both;
+    height: 50px;
+    display: block;
+}
+
+.vertical-60 {
+    clear: both;
+    height: 60px;
+    display: block;
+}
+
+.mt-80 {
+    margin-top: 80px !important;
+}
+.mt-5
+{
+     margin-top: 5px !important;
+}
+.mt-15
+{
+     margin-top: 15px !important;
+}
+
+.mr-15
+{
+     margin-right: 15px !important;
+}
+.text-align-center {
+    text-align:center !important;
+}
+
+.text-align-left {
+     text-align:left !important;
+}
+
+.text-align-right {
+     text-align:right !important;
+}
+.text-align-justify {
+     text-align:justify !important;
+}
+.direction-rtl{
+    direction:rtl !important;
+}
+.direction-ltr
+{
+    direction:ltr !important;
+}
+.tana-text {
+    line-height: 2.5em !important;
+}
+.tana-text-color-orange{
+    color:#c12900 !important;
+}
+.tana-text-color-white
+{
+    color:#fff !important;
+}
+.font-_8em
+{
+    font-size:0.9em !important;
+}
+.font-1em
+{
+    font-size:1em !important;
+}
+
+.font-1_3em
+{
+    font-size:1.3em !important;
+}
+.font-1_5em
+{
+    font-size:1.5em !important;
+}
+.font-2em
+{
+    font-size:2em !important;
+}
+.font-2_5em
+{
+    font-size:2.5em !important;
+}
+.font-3em
+{
+    font-size:3em !important;
+}
+.font-3_5em
+{
+    font-size:3.5em !important;
+}
+.font-4em
+{
+    font-size:4em !important;
+}
+.font-4_5em
+{
+    font-size:4.5em !important;
+}
+.alternative
+{
+    background-color: #f8f8f8 !important;
+}
+.block
+{
+    display:block !important;
+}
+.clear{
+    clear:both;
+}

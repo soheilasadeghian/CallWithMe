@@ -1,0 +1,970 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="fa">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>کال ویت می | تلفن بین الملل | میزبانی سرور | نرم افزار موبایل</title>
+    <meta name="description" content="خدمات تامین اینترنت، سرور اختصاصی، توسعه و طراحی برنامه های موبایل، وبسایت و خدمات ارزش افزوده">
+    <meta name="keywords" content="تلفن بین الملل, نرم افزار موبایل,  میزبانی سرور, اینترنت پر سرعت, تجارت الکترونیک " />
+    <meta name="author" content="توسعه ارتباطات نوین آریا">
+
+    <link rel="icon" href="~/content/fa/img/callwithme_logo.png" type="image/png">
+	<meta property="og:locale" content="fa_IR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="تانا | طراحی و برنامه نویسی اپلیکیشن موبایل" />
+	<meta property="og:description" content="تانا| طراحی و برنامه نویسی اپلیکیشن موبایل | اپلیکیشن اندروید | توسعه اپلیکیشن | برنامه نویس آیفون اپل آی پد | برای موبایل های هوشمند callwithme.com طراحی اپلیکیشن | آی‌او‌اس | ویندوز موبایل |" />
+	<meta property="og:url" content="http://callwithme.com" />
+	<meta property="og:site_name" content="تانا" />
+    <meta property="og:image" content="~/content/fa/img/Logo.jpg" type="image/jpg" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts  -->
+
+    <link href="/Content/fa/css/bodyFont.css" rel="stylesheet" /> <!-- Body font -->
+
+    <link href="/Content/fa/css/navbarFont.css" rel="stylesheet" /> <!-- Navbar font -->
+    <!-- Libs and Plugins CSS -->
+    <link rel="stylesheet" href="/Content/fa/inc/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Content/fa/inc/animations/css/animate.min.css">
+    <link rel="stylesheet" href="/Content/fa/inc/font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
+    <link rel="stylesheet" href="/Content/fa/inc/owl-carousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="/Content/fa/inc/owl-carousel/css/owl.theme.css">
+	<link rel="stylesheet" href="/Content/commonstyle.css">
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="/Content/fa/css/reset.css">
+    <link rel="stylesheet" href="/Content/fa/css/style.css">
+    <link rel="stylesheet" href="/Content/fa/css/mobile.css">
+
+    <!-- Skin CSS -->
+    <!--<link rel="stylesheet" href="css/skin/cool-gray.css">-->
+    <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
+    <link rel="stylesheet" href="/Content/fa/css/skin/summer-orange.css">
+    <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
+    <!-- <link rel="stylesheet" href="css/skin/night-purple.css"> -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="/Content/fa/component/lightbox/simplelightbox.min.css" rel="stylesheet" />
+    <link href="/Content/fa/component/lightbox/css.css" rel="stylesheet" />
+    <link href="/Content/bootstrap-rtl.css" rel="stylesheet" />
+	
+	<style>
+	#map {
+    width: 100%;
+    height: 400px;
+    background-color: #CCC;
+    border-top: 3px solid #F26B1D;
+    border-bottom: 3px solid #F26B1D;
+}
+	</style>
+</head>
+
+<body data-spy="scroll" data-target="#main-navbar">
+    <input type="hidden" id="token" value="" />
+   <!-- <div class="page-loader"></div> <!-- Display loading image while page loads -->
+    <div class="body">
+
+        <!--========== BEGIN HEADER ==========-->
+        <header id="header" class="header-main">
+
+            <!-- Begin Navbar -->
+            <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
+
+                <div class="container">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand page-scroll" href="/fa">تانا</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li><a class="page-scroll" href="body">صفحه نخست</a></li>
+							 <li><a class="page-scroll" href="#about-section">درباره ما</a></li>
+							  <li><a class="page-scroll" href="#services-section">خدمات</a></li>
+                            <li><a class="page-scroll" href="#partners-section">مشتريان</a></li>
+                            <li><a class="page-scroll" href="#contact-section">ارتباط باما</a></li>
+						
+                           
+                            <li><a class="page-scroll" href="/">en</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+            </nav>
+            <!-- End Navbar -->
+
+        </header>
+        <!-- ========= END HEADER =========-->
+        <!-- Begin text carousel intro section -->
+
+        <div class="fullscreen-bg">
+            <img class="visible-xs fullscreen-bg__video" src="/Content/fa/img/vid_min.gif" />
+            <video autoplay="autoplay" loop="loop" muted class="fullscreen-bg__video hidden-xs">
+                <source src="/Content/fa/img/vid.mp4" type="video/mp4" />
+                <source src="/Content/fa/img/vid.mov" type="video/quicktime" />
+                <source src="/Content/fa/img/vid.webm" type="video/webm" />
+                <source src="/Content/fa/img/vid.ogv" type="video/ogv" />
+            </video>
+        </div>
+
+        <section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image:none;background-color:transparent">
+
+            <div class="container">
+                <div class="caption text-center text-white" data-stellar-ratio="0.7">
+
+                    <div id="owl-intro-text" class="owl-carousel">
+                        <div class="item">
+						 <h1 style="direction:rtl">برنامه های موبایل اندروید، iOS</h1>
+                            <h3>طراحی کاربر پسند همراه با تجربه کاربری، امنیت بر اساس آخرین استاندارد ها</h3>
+                            
+                            <div class="extra-space-l"></div>
+                        </div>
+                                    
+					  <div class="item direction-rtl">
+                            <h1>اینترنت پرسرعت ، بدون محدودیت</h1>
+                            <h3>همیشگی و مطمئن با پشتیبانی 24 ساعته</h3>
+                            <div class="extra-space-l"></div>
+                        </div>
+						
+						<div class="item">
+                            <h1>ارايه خدمات تخصصی مركز داده و پايش هوشمند</h1>
+                            <h3>سرور اختصاصی، VPS، هاست لینوکس و ویندوز</h3>
+                            <div class="extra-space-l"></div>
+                        </div>  
+                      
+					  <div class="item">
+                            <h1>خدمات ارزش افزوده و تامین محتوا</h1>
+<!--                      
+					  <h3>طراحی و تامین محتوا جهت سرویس های خدمات ارزش افزوده دیابت، روان شناسی، سلامت، کودکان، پوشاک و فن آوری اطلاعات</h3>
+					  
+					  -->
+                            <div class="extra-space-l"></div>
+                        </div>
+                    </div>
+
+                </div> <!-- /.caption -->
+            </div> <!-- /.container -->
+
+        </section>
+        <!-- End text carousel intro section -->
+        <!-- Begin about section -->
+        <section id="about-section" class="page bg-style1">
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                        <h2>درباره ما</h2>
+                        <div class="devider" style="text-justify"></div>
+                        <h4 class="subtitle subtitle-helper">شرکت بین‌المللی توسعه ارتباطات نوین آریا (تانا) با نام تجاری
+                            CallWithMe
+                           از سال 1376 با ایجاد شبکه گسترده تامین دسترسی به اینترنت و شبكه ارتباط داده‌ها فعالیت خود را آغاز نمود و در طی
+                            همین دوران توانسته است با ارایه راه حل‌های مطمئن، مقرون به صرفه و اختصاصی نیازهای ارتباطی باند وسیع
+                            تامین محتوا، طراحی و تولید سامانه های وب و موبایل و خدمات ارزش افزوده مبتنی بر آن را جهت بسیاری از شركت‌های بزرگ و مجموعه‌های معظم صنعتی و مراكز تحقیق و
+                            توسعه بنگاه‌های اقتصادی و همین‌طور مراكز دانشگاهی كشور را در سطح استان‌های تحت پوشش خود تامین نماید. </div>
+                </div>
+            </div>
+            <!-- End page header-->
+            <!-- Begin rotate box-1 -->
+            <div class="rotate-box-1-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <a href="/fa/#team-section" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
+                                <span class="rotate-box-icon"><i class="fa fa-users"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>تیم تانا</h4>
+
+                                    <p>شرکت بین‌المللی توسعه ارتباطات نوین آریا به شماره ثبت 188823 و شناسه ملی 10102308421 به صورت سهامی خاص ثبت گردیده و بیش از 50 نفر به صورت مستقیم و غیر مستقیم با این شرکت همکاری دارند</p>
+                                </div>
+                            </a>
+                        </div>
+						<div class="col-md-3 col-sm-6">
+                            <a href="/fa/#services-section" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
+                                <span class="rotate-box-icon"><i class="fa fa-diamond"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>خدمات تانا</h4>
+
+                                    <p class="box-info-element">
+                                        <i>  خدمات تلفن بین الملل اینترنتی</i>
+                                        <i>  ارائه پهنای باند پر سرعت اینترنت</i>
+                                        <i>  طراحی وب سایت</i>
+                                        <i>  طراحی اپلیکیشن تلفن همراه</i>
+                                        <i>   طراحی نرم افزارهای کاربردی</i>
+                                        <i> تامین سخت افزار و تجهیزات شبکه</i>
+                                    </p>
+
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
+                                <span class="rotate-box-icon"><i class="fa fa-heart"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>چرا تانا؟</h4>
+
+                                    <p class="box-info-element">
+                                        <i> بیش از 10 سال تجربه کاری</i>
+                                       
+                                        <i>تجربه در حوزه های مختلف IT</i>
+                                        <i>مشتری های معتبر</i>
+                                    </p>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.6s">
+                                <span class="rotate-box-icon">
+                                    <i class="fa fa-clock-o"></i>
+                                </span>
+                                <div class="rotate-box-info">
+                                    <h4>گواهی نامه ها</h4>
+
+                                    <p class="box-info-element">
+                                        <i>  گواهی رتبه بندی و صلاحیت از شورای عالی انفورماتیک</i>
+                                        <i> پروانه توزیع اینترنت (ISDP)</i>
+                                        <i> مجوز فعالیت سازمان نظام صنفی رایانه ای</i>
+                                    </p>
+
+                                </div>
+                            </a>
+                        </div>
+                        
+
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </div>
+            <!-- End rotate box-1 -->
+
+            <div class="extra-space-l"></div>
+
+            <!-- Begin page header-->
+            <!--<div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                        <h4>Our Skills</h4>
+                    </div>
+                </div>
+            </div>-->
+            <!-- End page header-->
+            <!-- Begin Our Skills -->
+            <!--<div class="our-skills">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-sm-6">
+                            <div class="skill-bar wow slideInLeft" data-wow-delay="0.4s">
+                                <div class="progress-lebel">
+                                    <h6>Data Center</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="skill-bar wow slideInRight" data-wow-delay="0.2s">
+                                <div class="progress-lebel">
+                                    <h6>Voip</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="skill-bar wow slideInLeft" data-wow-delay="0.2s">
+                                <div class="progress-lebel">
+                                    <h6>Software</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100" style="width: 94%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="skill-bar wow slideInRight" data-wow-delay="0.4s">
+                                <div class="progress-lebel">
+                                    <h6>Internet</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style="width: 97%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>-->
+            <!-- End Our Skill -->
+        </section>
+        <!-- End about section -->
+        <!-- Begin cta -->
+        <!--<section id="cta-section">
+            <div class="cta">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-9">
+                            <h1>Download Our Pdf</h1>
+                            <p>Inspired by nature, follow technology, appreciate the classics. You can build modern & professional websites with Unika. The possibilities are just endless.</p>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="cta-btn wow bounceInRight" data-wow-delay="0.4s">
+                                <a class="btn btn-default btn-lg" href="http://www.imransdesign.com/" target="_blank" role="button">Download</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        <!-- End cta -->
+        <!-- Begin counter up -->
+        <section id="counter-section">
+            <div id="counter-up-trigger" class="counter-up text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(/Content/fa/img/counter-bg.jpg);">
+                <div class="cover"></div>
+                <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>چند حقیقت جذاب</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle">لحظات تکراری نشدنی در تانا</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="fact text-center col-md-3 col-sm-6">
+                            <div class="fact-inner">
+                                <i class="fa fa-users fa-3x"></i>
+                                <div class="extra-space-l"></div>
+                                <span class="counter">40</span>
+                                <p class="lead"><a herf="/fa/#partners-section" calss="text-white">مشتری</a> </p>
+                            </div>
+                        </div>
+
+                        <div class="fact text-center col-md-3 col-sm-6">
+                            <div class="fact-inner">
+                                <i class="fa fa-leaf fa-3x"></i>
+                                <div class="extra-space-l"></div>
+                                <span class="counter">43</span>
+                                <p class="lead"><a href="#" class="text-white">پروژه های انجام شده</a></p>
+                            </div>
+                        </div>
+
+                        <div class="fact text-center col-md-3 col-sm-6">
+                            <div class="fact-inner">
+                                <i class="fa fa-trophy fa-3x"></i>
+                                <div class="extra-space-l"></div>
+                                <span class="counter">70</span>
+                                <p class="lead">دستاورد ها</p>
+                            </div>
+                        </div>
+
+                        <div class="fact last text-center col-md-3 col-sm-6">
+                            <div class="fact-inner">
+                                <i class="fa fa-coffee fa-3x"></i>
+                                <div class="extra-space-l"></div>
+                                <span class="counter">165</span>
+                                <p class="lead">جشن ها و مراسم ها</p>
+                            </div>
+                        </div>
+
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </div>
+        </section>
+        <!-- End counter up -->
+        <!-- Begin Services -->
+        <section id="services-section" class="page text-center">
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <h2>خدمات</h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">حوزه های که در آن متخصص هستیم</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End page header-->
+            <!-- Begin roatet box-2 -->
+            <div class="rotate-box-2-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
+                                <span class="rotate-box-icon"><i class="fa fa-wifi"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>اینترنت</h4>
+                                    <p>
+مطمئن، مقرون به صرفه و اختصاصی نیازهای ارتباطی باند وسیع جهت بسیاری از شركت‌های بزرگ و مجموعه‌های معظم صنعتی و مراكز تحقیق و توسعه، بنگاه‌های اقتصادی و همین‌طور مراكز دانشگاهی كشور در سطح  20 استان‌
+									</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+                                <span class="rotate-box-icon"><i class="fa fa-soundcloud"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>تلفن بین الملل</h4>
+                                    <p>
+									جهت مشتركین خانگی با قابلیت فرامكانی (Roaming) و در صورت جابجایی از خدمات نزدیك‌ترین مركز ارایه دهنده خدمات این شبكه می توان استفاده نمود. امكان استفاده همزمان از اعتبار كارت‌های خود جهت ارتباط اینترنت، ارسال پیام كوتاه و برقراری مكالمات بین‌الملل
+									
+									</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+						<a href="/fa/Mobile/نرم-افزار-موبایل" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+                                <span class="rotate-box-icon"><i class="fa fa-mobile"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>نرم افزار موبایل</h4>
+                                    <p>
+
+بهترین و جذابترین طراحی و تولید برنامه ها و اپلیکیشن های موبایل اندروید و iOS بصورت Native و بر اساس آخرین استاندارد های امنیتی (ISMS ) طراحی گرافیگی و تجربه کاربری UI/UX
+									</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+                                <span class="rotate-box-icon"><i class="fa fa-plus-square-o"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>خدمات ارزش افزوده</h4>
+                                    <p>
+140 سرویس پیامکی در زمینه‌های دیابت، پوشاک، روانشناسی و آموزش‌ فناوری اطلاعات و ارتباطات، مجموعا دارای 3,839,318 نفر عضو، ترافیک روزانه ارسالی جهت سرویس‌های فوق در بازه‌ی 1,500,000 تا 2,000,000 پیامک محتوایی می‌باشد.
+
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+						
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+                                <span class="rotate-box-icon"><i class="fa fa-html5"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>طراحی نرم افزار تحت وب</h4>
+                                    <p>
+طراحی سایتی زیبا و جذاب با معرفی بهتر به موتورهای جستجو
+
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+                                <span class="rotate-box-icon"><i class="fa fa-credit-card"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>تجارت الکترونیک</h4>
+                                    <p>
+وقت طلاست. مشتریان تمایل به استفاده از ابزاری دارند که کمتر وقت آنها را بگیرد و کمترین مسافت را برای استفاده از آن طی کنند
+
+
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+                                <span class="rotate-box-icon"><i class="fa fa-server"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>باشگاه مشتريان</h4>
+                                    <p>
+باشگاه مشتریان برای تامین نیازها و ایجاد منافع بیشتر مشتریان در برندهای تجاری 
+
+
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+						<div class="col-md-3 col-sm-6">
+                           <a href="/fa/plan/میزبانی-سرور" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+                                <span class="rotate-box-icon"><i class="fa fa-database "></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>میزبانی سرور</h4>
+                                    <p>
+                                        انواع خدمات میزبانی اشتراکی و پست الکترونیکی برای مشتریان و خدمات متنوع مجازی سازی، زیرساخت ابری، اجاره فضا و سرور اختصاصی زیرساخت ابری اختصاصی مناسب برای سازمان ها و مشتریان بزرگ 
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+
+
+            </div>
+            <!-- End rotate-box-2 -->
+        </section>
+        <!-- End Services -->
+        <!-- Begin testimonials -->
+        <section id="testimonial-section">
+            <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(/Content/fa/img/testimonial-bg.jpg);">
+                <div class="cover"></div>
+                <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>اخبار</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle">اخبار کوتاه از شرکت</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+                <div class="container">
+                    <div class="testimonial-inner center-block text-center">
+                        <div id="owl-testimonial" class="owl-carousel">
+                            <div class="item">
+                                <blockquote>
+                                    <p>شرکت بین المللی توسعه ارتباطات نوین آریا با نام تجاری CallWithMe آماده خدمت رسانی به شما.</p>
+                                    <footer><cite title="Source Title">رضا نادری</cite></footer>
+                                </blockquote>
+                            </div>
+
+                            <div class="item">
+                                <blockquote>
+                                    <p>
+                                        کار کردن در مجموعه ای تانا باعث رشد روز افزون معلومات و دانش فنی برای من بوده است
+
+                                    </p>
+                                    <footer>
+                                        <cite title="Source Title">
+                                            علی یوسف زاده
+                                        </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End testimonials -->
+        <!-- Begin team-->
+        <section id="team-section" class="page">
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <h2>تانا</h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">لحظات شاد در شرکت  تانا</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End page header-->
+            <div class="container">
+                <div class="row">
+                    <div class="team-items">
+                        <div class="col-md-2">
+                            <div class="team-container wow bounceIn" data-wow-delay="0.2s">
+                                <div class="team-item">
+                                    <div class="team-triangle">
+                                        <div class="content">
+                                            <a href="/Content/en/img/team/b15.jpg" class="big text-center">
+                                                <img src="/Content/en/img/team/15.jpg" alt="title" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="team-container wow bounceIn" data-wow-delay="0.3s">
+                                <div class="team-item">
+                                    <div class="team-triangle">
+                                        <div class="content">
+                                            <a href="/Content/en/img/team/b14.jpg" class="big text-center">
+                                                <img src="/Content/en/img/team/14.jpg" alt="title" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="team-container wow bounceIn" data-wow-delay="0.4s">
+                                <div class="team-item">
+                                    <div class="team-triangle">
+                                        <div class="content">
+                                            <a href="/Content/en/img/team/b3.jpg" class="big text-center">
+                                                <img src="/Content/en/img/team/3.jpg" alt="title" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="team-container wow bounceIn" data-wow-delay="0.5s">
+                                <div class="team-item">
+                                    <div class="team-triangle">
+                                        <div class="content">
+                                            <a href="/Content/en/img/team/b4.jpg" class="big text-center">
+                                                <img src="/Content/en/img/team/4.jpg" alt="title" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="team-container wow bounceIn" data-wow-delay="0.6s">
+                                <div class="team-item">
+                                    <div class="team-triangle">
+                                        <div class="content">
+
+                                            <a href="/Content/en/img/team/b5.jpg" class="big text-center">
+                                                <img src="/Content/en/img/team/5.jpg" alt="title" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="team-container wow bounceIn" data-wow-delay="0.7s">
+                                <div class="team-item">
+                                    <div class="team-triangle">
+                                        <div class="content">
+                                            <a href="/Content/en/img/team/b6.jpg" class="big text-center">
+                                                <img src="/Content/en/img/team/6.jpg" alt="title" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="team-container wow bounceIn" data-wow-delay="0.8s">
+                                <div class="team-item">
+                                    <div class="team-triangle">
+                                        <div class="content">
+                                            <a href="/Content/en/img/team/b7.jpg" class="big text-center">
+                                                <img src="/Content/en/img/team/7.jpg" alt="title" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="team-container wow bounceIn" data-wow-delay="0.2s">
+                                <div class="team-item">
+                                    <div class="team-triangle">
+                                        <div class="content">
+                                            <a href="/Content/en/img/team/b8.jpg" class="big text-center">
+                                                <img src="/Content/en/img/team/8.jpg" alt="title" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <div class="col-md-2">
+                            <div class="team-container wow bounceIn" data-wow-delay="0.2s">
+                                <div class="team-item">
+                                    <div class="team-triangle">
+                                        <div class="content">
+                                            <a href="/Content/en/img/team/b9.jpg" class="big text-center">
+                                                <img src="/Content/en/img/team/9.jpg" alt="title" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <div class="col-md-2">
+                            <div class="team-container wow bounceIn" data-wow-delay="0.2s">
+                                <div class="team-item">
+                                    <div class="team-triangle">
+                                        <div class="content">
+                                            <a href="/Content/en/img/team/b2.jpg" class="big text-center">
+                                                <img src="/Content/en/img/team/2.jpg" alt="title" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <div class="col-md-2">
+                            <div class="team-container wow bounceIn" data-wow-delay="0.2s">
+                                <div class="team-item">
+                                    <div class="team-triangle">
+                                        <div class="content">
+                                            <a href="/Content/en/img/team/b1.jpg" class="big text-center">
+                                                <img src="/Content/en/img/team/1.jpg" alt="title" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End team-->
+        <!-- Begin partners -->
+        <section id="partners-section">
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <h2>مشتریان برجسته</h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">همکارانی که به ما اعتماد نمودند</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End page header-->
+            <div class="container">
+                <div id="owl-partners" class="owl-carousel">
+                    <img src="/Content/fa/img/partners/11.png" alt="img">
+                    <img src="/Content/fa/img/partners/12.png" alt="img">
+                    <img src="/Content/fa/img/partners/1.png" alt="img">
+                    <img src="/Content/fa/img/partners/2.png" alt="img">
+                    <img src="/Content/fa/img/partners/3.png" alt="img">
+                    <img src="/Content/fa/img/partners/4.png" alt="img">
+                    <img src="/Content/fa/img/partners/5.png" alt="img">
+                    <img src="/Content/fa/img/partners/6.png" alt="img">
+                    <img src="/Content/fa/img/partners/7.png" alt="img">
+                </div>
+            </div>
+        </section>
+        <!-- End partners -->
+        <!-- Begin social section -->
+        <section id="social-section">
+
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <h2>به ما بپیوندید</h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">مارا در شبکه های اجتماعی دنبال کنید</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End page header-->
+
+            <div class="container">
+                <ul class="social-list">
+                    <li> <a href="https://www.facebook.com/callwithmeco" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.3s"><span class="rotate-box-icon"><i class="fa fa-facebook"></i></span></a></li>
+                    <li> <a href="#" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.4s"><span class="rotate-box-icon"><i class="fa fa-twitter"></i></span></a></li>
+                    <!--<li> <a href="#" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.5s"><span class="rotate-box-icon"><i class="fa fa-google-plus"></i></span></a></li>-->
+                    <li> <a href="https://www.instagram.com/callwithme/" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.6s"><span class="rotate-box-icon"><i class="fa fa-instagram"></i></span></a></li>
+                    <li> <a href="https://telegram.me/diabetnews" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.7s"><span class="rotate-box-icon"><i class="fa fa-paper-plane"></i></span></a></li>
+                    <li> <a href="https://www.linkedin.com/company/callwithme-co-" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.8s"><span class="rotate-box-icon"><i class="fa fa-linkedin"></i></span></a></li>
+                </ul>
+            </div>
+
+        </section>
+        <!-- End social section -->
+        <!-- Begin contact section -->
+        <section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(/Content/fa/img/map-bg.jpg);">
+            <div class="cover"></div>
+
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <h2>ارتباط باما</h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">با ما در ارتباط باشید</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End page header-->
+
+            <div class="contact wow bounceInRight" data-wow-delay="0.4s">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="contact-info">
+                                <h4>آدرس شرکت</h4>
+                                <ul class="contact-address direction-rtl">
+                                    <li ><i class="fa fa-map-marker fa-lg"></i>&nbsp; تهران، خیابان دکتر فاطمی، برج ساعت، واحد 81</li>
+                                    <li ><i class="fa fa-phone "></i>&nbsp; <i class="direction-ltr">84015012 21 98+</i></li>
+                                    <li ><i class="fa fa-print"></i>&nbsp; <i class="direction-ltr">88974858 21 98+</i></li>
+                                    <li ><i class="fa fa-envelope"></i><i class="direction-ltr"> support@callwithme.com</i></li>
+                                </ul>
+
+                                <div class="clear"></div>
+                            </div>
+                            <div class="vertical-30"></div>
+                            <br />
+                            <div class="contact-info">
+                                <h4>مراکز خدمات</h4>
+                                <ul class="contact-address">
+                                    <li><i class="fa fa-link fa-lg"></i><a target="_blank" href="/fa/contact/مراکز-خدمات">&nbsp; فهرست مراکز خدمات</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="contact-form">
+                                <h4>ارسال پیام</h4>
+                                <form>
+                                    @Html.AntiForgeryToken()
+                                    <div class="form-group">
+                                        <input id="email" type="email" class="form-control input-lg" placeholder="پست الکترونیک">
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="subject" type="text" class="form-control input-lg" placeholder="موضوع">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea id="text" class="form-control input-lg" rows="5" placeholder="پیام"></textarea>
+                                    </div>
+
+
+                                    <div class="row mb-10">
+
+                                        <div class="col-sm-9">
+                                            <div id="success" class="alert alert-success hidden">
+                                                <strong>پیام ارسال شد</strong> پیام با موفقیت برای ما ارسال شد و بزودی پاسخگوی شما خواهیم بود
+                                            </div>
+                                            <div id="error" class="alert alert-danger hidden">
+                                                <strong>خطا در ارسال، </strong> <span id="error-text"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="clear"></div>
+                                    </div>
+                                    <button id="submit" type="submit" class="btn wow bounceInRight" data-wow-delay="0.8s">ارسال</button>
+                                </form>
+                            </div>
+                        </div>
+
+
+
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </div>
+        </section>
+        <!-- End contact section -->
+        <!-- Begin map-->
+        <div id="map">
+
+        </div>
+
+        <!-- End map-->
+        <!-- Begin footer -->
+        <footer class="text-off-white">
+
+            <div class="footer">
+		
+                <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
+				<a href="http://callwithme.com/fa/terms/%D8%A8%D9%86%D8%AF%D9%87%D8%A7" class="block right mr-15 mt-5 font-1em">قوانین و مقررات</a>
+                    <p class="copyright">تمامی حقوق این درگاه وب (پورتال)، متعلق به شرکت بين المللي توسعه ارتباطات نوين آريا (<a href="#" class="theme-author">تانا</a>) می‌باشد </p>
+                </div>
+					
+            </div>
+
+        </footer>
+        <!-- End footer -->
+
+        <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
+
+    </div><!-- body ends -->
+    <!-- Plugins JS -->
+    <script src="/Content/fa/inc/jquery/jquery-1.11.1.min.js"></script>
+    <script src="/Content/fa/inc/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/Content/fa/inc/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="/Content/fa/inc/stellar/js/jquery.stellar.min.js"></script>
+    <script src="/Content/fa/inc/animations/js/wow.min.js"></script>
+    <script src="/Content/fa/inc/waypoints.min.js"></script>
+    <script src="/Content/fa/inc/isotope.pkgd.min.js"></script>
+    <script src="/Content/fa/inc/classie.js"></script>
+    <script src="/Content/fa/inc/jquery.easing.min.js"></script>
+    <script src="/Content/fa/inc/jquery.counterup.min.js"></script>
+    <script src="/Content/fa/inc/smoothscroll.js"></script>
+    <script src="/Content/fa/component/lightbox/simple-lightbox.min.js"></script>
+    <script src="/Content/fa/component/lightbox/setup.js"></script>
+    <!-- Theme JS -->
+    <script src="/Content/fa/js/theme.js"></script>
+    <script src="/Content/fa/js/ajax.js"></script>
+    <script src="/Content/fa/js/js.js"></script>
+
+    <script>
+        var marker;
+        function initMap() {
+            var mapDiv = document.getElementById('map');
+            var map = new google.maps.Map(mapDiv, {
+                center: { lat: 35.717101, lng: 51.397211 },
+                zoom: 16,
+                scrollwheel: false,
+            });
+            marker = new google.maps.Marker({
+                position: { lat: 35.717101, lng: 51.397211 },
+                map: map,
+                icon: "/Content/fa/img/marker.png",
+                title: "شرکت بین المللی توسعه ارتباطات نوین آریا"
+            });
+            marker.addListener('click', toggleBounce);
+        }
+        function toggleBounce() {
+            if (marker.getAnimation() !== null) {
+                marker.setAnimation(null);
+            } else {
+                marker.setAnimation(google.maps.Animation.BOUNCE);
+            }
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIWClRxx9uZZcZiqQUM50AICaCLdUufic&callback=initMap">
+
+    </script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79899102-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	
+
+</body>
+
+
+</html>

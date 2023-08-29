@@ -1,0 +1,128 @@
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\CallWithMe.dll.config
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\CallWithMe.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\CallWithMe.pdb
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.Providers.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\obj\Debug\CallWithMe.dll
+C:\Users\Administrator\Desktop\tana\CallWithMe\CallWithMe\obj\Debug\CallWithMe.pdb
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\CallWithMe.dll.config
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\CallWithMe.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\CallWithMe.pdb
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\Antlr3.Runtime.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\EntityFramework.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\Microsoft.Web.Infrastructure.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\Newtonsoft.Json.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Net.Http.Formatting.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.Http.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.Http.WebHost.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.Mvc.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.Optimization.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.Providers.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.Razor.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.Deployment.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.Razor.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\WebGrease.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\EntityFramework.xml
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\Newtonsoft.Json.xml
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Net.Http.Formatting.xml
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.Http.xml
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.Http.WebHost.xml
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.Mvc.xml
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.Razor.xml
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.xml
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.Deployment.xml
+E:\backup\tana\tana\CallWithMe\CallWithMe\bin\System.Web.WebPages.Razor.xml
+E:\backup\tana\tana\CallWithMe\CallWithMe\obj\Debug\CallWithMe.dll
+E:\backup\tana\tana\CallWithMe\CallWithMe\obj\Debug\CallWithMe.pdb
+C:\soheila_project\CallWithMe\CallWithMe\bin\CallWithMe.dll.config
+C:\soheila_project\CallWithMe\CallWithMe\bin\CallWithMe.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\CallWithMe.pdb
+C:\soheila_project\CallWithMe\CallWithMe\bin\Antlr3.Runtime.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\EntityFramework.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\Microsoft.Web.Infrastructure.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\Newtonsoft.Json.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Net.Http.Formatting.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.Http.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.Http.WebHost.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.Mvc.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.Optimization.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.Providers.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.Razor.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.WebPages.Deployment.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.WebPages.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.WebPages.Razor.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\WebGrease.dll
+C:\soheila_project\CallWithMe\CallWithMe\bin\EntityFramework.xml
+C:\soheila_project\CallWithMe\CallWithMe\bin\Newtonsoft.Json.xml
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Net.Http.Formatting.xml
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.Http.xml
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.Http.WebHost.xml
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.Mvc.xml
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.Razor.xml
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.WebPages.xml
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.WebPages.Deployment.xml
+C:\soheila_project\CallWithMe\CallWithMe\bin\System.Web.WebPages.Razor.xml
+C:\soheila_project\CallWithMe\CallWithMe\obj\Debug\CallWithMe.csprojResolveAssemblyReference.cache
+C:\soheila_project\CallWithMe\CallWithMe\obj\Debug\CallWithMe.dll
+C:\soheila_project\CallWithMe\CallWithMe\obj\Debug\CallWithMe.pdb
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\CallWithMe.dll.config
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\CallWithMe.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\CallWithMe.pdb
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\Antlr3.Runtime.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\EntityFramework.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\Newtonsoft.Json.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Net.Http.Formatting.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.Http.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.Http.WebHost.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.Mvc.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.Optimization.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.Providers.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.Razor.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.WebPages.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\WebGrease.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\EntityFramework.xml
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\Newtonsoft.Json.xml
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Net.Http.Formatting.xml
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.Http.xml
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.Http.WebHost.xml
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.Mvc.xml
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.Razor.xml
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.WebPages.xml
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\obj\Debug\CallWithMe.csprojAssemblyReference.cache
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\obj\Debug\CallWithMe.csproj.CoreCompileInputs.cache
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\obj\Debug\CallWithMe.csproj.CopyComplete
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\obj\Debug\CallWithMe.dll
+C:\Users\sama laptop\Desktop\CallWithMe\CallWithMe\obj\Debug\CallWithMe.pdb

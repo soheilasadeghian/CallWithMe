@@ -1,0 +1,859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Administrator\Desktop\testPublish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>05/17/2016 22:47:00</publishTime>
+    </File>
+    <File Include="bin/CallWithMe.dll">
+      <publishTime>06/24/2016 22:41:40</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>05/17/2016 22:46:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/17/2016 22:46:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>05/17/2016 22:46:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/17/2016 22:46:56</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/17/2016 22:46:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/17/2016 22:46:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>05/17/2016 22:46:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/17/2016 22:46:57</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>05/17/2016 22:47:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>05/17/2016 22:46:59</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/17/2016 22:46:57</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>05/17/2016 22:46:57</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>05/17/2016 22:46:57</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>05/17/2016 22:46:57</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>05/17/2016 22:47:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap-rtl.css">
+      <publishTime>06/07/2016 07:13:54</publishTime>
+    </File>
+    <File Include="Content/commonAnimation.css">
+      <publishTime>06/08/2016 03:54:17</publishTime>
+    </File>
+    <File Include="Content/commonAnimation.js">
+      <publishTime>06/08/2016 02:24:17</publishTime>
+    </File>
+    <File Include="Content/commonStyle.css">
+      <publishTime>06/08/2016 03:54:12</publishTime>
+    </File>
+    <File Include="Content/en/component/lightbox/css.css">
+      <publishTime>06/05/2016 06:08:07</publishTime>
+    </File>
+    <File Include="Content/en/component/lightbox/setup.js">
+      <publishTime>06/05/2016 06:08:07</publishTime>
+    </File>
+    <File Include="Content/en/component/lightbox/simple-lightbox.min.js">
+      <publishTime>06/05/2016 06:08:07</publishTime>
+    </File>
+    <File Include="Content/en/component/lightbox/simplelightbox.min.css">
+      <publishTime>06/05/2016 06:08:07</publishTime>
+    </File>
+    <File Include="Content/en/css/bodyFont.css">
+      <publishTime>06/05/2016 06:08:07</publishTime>
+    </File>
+    <File Include="Content/en/css/mobile.css">
+      <publishTime>06/05/2016 06:08:07</publishTime>
+    </File>
+    <File Include="Content/en/css/navbarFont.css">
+      <publishTime>06/05/2016 06:08:07</publishTime>
+    </File>
+    <File Include="Content/en/css/reset.css">
+      <publishTime>06/05/2016 06:08:07</publishTime>
+    </File>
+    <File Include="Content/en/css/skin/cool-gray.css">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/css/skin/fresh-lime.css">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/css/skin/ice-blue.css">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/css/skin/night-purple.css">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/css/skin/summer-orange.css">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/css/style.css">
+      <publishTime>06/12/2016 23:07:15</publishTime>
+    </File>
+    <File Include="Content/en/font/-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/1YwB1sO8YE1Lyjf12WNiUA.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/77FXFjRbGzN4aCrSFhlh3hJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/CWB0XYA8bzo0kSThX0UTuA.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/EsvMC5un3kjyUhB9ZEPPwg.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/isZ-wbCXNKAbnjo6_TwHThJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/jSN2CGVDbcVyCnfJfjSdfBJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/mbmhprMH69Zi6eEPBYVFhRJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/mx9Uck6uB63VIKFYnEMXrRJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/oHi30kwQWvpCWqAhzHcCSBJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/oOeFwZNlrTefzLYmlVV1UBJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/PwZc-YbIL414wB9rB1IAPRJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/rGvHdJnr2l75qb0YND9NyBJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/UX6i4JxQDm3fVTc1CPuwqhJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/UyBMtLsHKBKXelqf4x7VRQ.woff2">
+      <publishTime>06/05/2016 06:08:08</publishTime>
+    </File>
+    <File Include="Content/en/font/ZLqKeelYbATG60EpZBSDyxJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/arrow-left.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/arrow-right.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/counter-bg.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/devider.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/logo.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/map-bg.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/marker.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/page-loader.gif">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/partners/1.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/partners/2.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/partners/3.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/partners/4.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/partners/5.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/partners/6.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/partners/7.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/pat-bg.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/portfolio/p1.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/portfolio/p2.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/portfolio/p3.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/portfolio/p4.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/portfolio/p5.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/portfolio/p6.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/portfolio/p7.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/portfolio/p8.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/portfolio/p9.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/portfolio/Thumbs.db">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/slider-bg.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/team/1.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/team/avatar.png">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/team/bigavatar.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/team/Thumbs.db">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/testimonial-bg.jpg">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/img/vid.mp4">
+      <publishTime>06/07/2016 06:26:47</publishTime>
+    </File>
+    <File Include="Content/en/img/vid.ogv">
+      <publishTime>06/07/2016 06:26:47</publishTime>
+    </File>
+    <File Include="Content/en/img/vid.webm">
+      <publishTime>06/07/2016 06:26:47</publishTime>
+    </File>
+    <File Include="Content/en/img/vid_min.gif">
+      <publishTime>06/12/2016 23:35:15</publishTime>
+    </File>
+    <File Include="Content/en/inc/animations/css/animate.min.css">
+      <publishTime>06/05/2016 06:08:09</publishTime>
+    </File>
+    <File Include="Content/en/inc/animations/js/wow.min.js">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/bootstrap/css/bootstrap.min.css">
+      <publishTime>06/07/2016 06:57:28</publishTime>
+    </File>
+    <File Include="Content/en/inc/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/bootstrap/js/bootstrap.min.js">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/classie.js">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/font-awesome/css/font-awesome.min.css">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/isotope.pkgd.min.js">
+      <publishTime>06/05/2016 06:08:10</publishTime>
+    </File>
+    <File Include="Content/en/inc/jquery.counterup.min.js">
+      <publishTime>06/05/2016 06:08:11</publishTime>
+    </File>
+    <File Include="Content/en/inc/jquery.easing.min.js">
+      <publishTime>06/05/2016 06:08:11</publishTime>
+    </File>
+    <File Include="Content/en/inc/jquery/jquery-1.11.1.min.js">
+      <publishTime>06/05/2016 06:08:11</publishTime>
+    </File>
+    <File Include="Content/en/inc/owl-carousel/css/grabbing.png">
+      <publishTime>06/05/2016 06:08:11</publishTime>
+    </File>
+    <File Include="Content/en/inc/owl-carousel/css/owl.carousel.css">
+      <publishTime>06/05/2016 06:08:11</publishTime>
+    </File>
+    <File Include="Content/en/inc/owl-carousel/css/owl.theme.css">
+      <publishTime>06/05/2016 06:08:11</publishTime>
+    </File>
+    <File Include="Content/en/inc/owl-carousel/js/owl.carousel.min.js">
+      <publishTime>06/05/2016 06:08:11</publishTime>
+    </File>
+    <File Include="Content/en/inc/smoothscroll.js">
+      <publishTime>06/05/2016 06:08:11</publishTime>
+    </File>
+    <File Include="Content/en/inc/stellar/js/jquery.stellar.min.js">
+      <publishTime>06/05/2016 06:08:11</publishTime>
+    </File>
+    <File Include="Content/en/inc/waypoints.min.js">
+      <publishTime>06/05/2016 06:08:11</publishTime>
+    </File>
+    <File Include="Content/en/js/ajax.js">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/en/js/js.js">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/en/js/theme.js">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/component/lightbox/css.css">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/component/lightbox/setup.js">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/component/lightbox/simple-lightbox.min.js">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/component/lightbox/simplelightbox.min.css">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/contactTana/css.css">
+      <publishTime>06/07/2016 04:23:01</publishTime>
+    </File>
+    <File Include="Content/fa/contactTana/ghafori.jpg">
+      <publishTime>06/06/2016 03:39:28</publishTime>
+    </File>
+    <File Include="Content/fa/contactTana/gholami.jpg">
+      <publishTime>06/06/2016 03:39:28</publishTime>
+    </File>
+    <File Include="Content/fa/contactTana/js.js">
+      <publishTime>06/06/2016 03:39:28</publishTime>
+    </File>
+    <File Include="Content/fa/contactTana/tanapic.png">
+      <publishTime>06/06/2016 03:39:28</publishTime>
+    </File>
+    <File Include="Content/fa/contactTana/yosefzadeh.jpg">
+      <publishTime>06/06/2016 03:39:28</publishTime>
+    </File>
+    <File Include="Content/fa/css/bodyFont.css">
+      <publishTime>06/07/2016 07:16:51</publishTime>
+    </File>
+    <File Include="Content/fa/css/mobile.css">
+      <publishTime>06/07/2016 07:16:51</publishTime>
+    </File>
+    <File Include="Content/fa/css/navbarFont.css">
+      <publishTime>06/07/2016 07:16:51</publishTime>
+    </File>
+    <File Include="Content/fa/css/reset.css">
+      <publishTime>06/07/2016 07:16:51</publishTime>
+    </File>
+    <File Include="Content/fa/css/skin/cool-gray.css">
+      <publishTime>06/07/2016 07:16:52</publishTime>
+    </File>
+    <File Include="Content/fa/css/skin/fresh-lime.css">
+      <publishTime>06/07/2016 07:16:52</publishTime>
+    </File>
+    <File Include="Content/fa/css/skin/ice-blue.css">
+      <publishTime>06/07/2016 07:16:52</publishTime>
+    </File>
+    <File Include="Content/fa/css/skin/night-purple.css">
+      <publishTime>06/07/2016 07:16:52</publishTime>
+    </File>
+    <File Include="Content/fa/css/skin/summer-orange.css">
+      <publishTime>06/07/2016 07:16:52</publishTime>
+    </File>
+    <File Include="Content/fa/css/style.css">
+      <publishTime>06/12/2016 23:08:11</publishTime>
+    </File>
+    <File Include="Content/fa/font/-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/font/1BYekan.eot">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/font/1BYekan.ttf">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/font/1BYekan.woff">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/font/1YwB1sO8YE1Lyjf12WNiUA.woff2">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/font/77FXFjRbGzN4aCrSFhlh3hJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/font/97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/font/BYekan.eot">
+      <publishTime>06/07/2016 06:47:25</publishTime>
+    </File>
+    <File Include="Content/fa/font/BYekan.svg">
+      <publishTime>06/07/2016 06:47:25</publishTime>
+    </File>
+    <File Include="Content/fa/font/BYekan.ttf">
+      <publishTime>06/07/2016 06:47:25</publishTime>
+    </File>
+    <File Include="Content/fa/font/BYekan.woff">
+      <publishTime>06/07/2016 06:47:25</publishTime>
+    </File>
+    <File Include="Content/fa/font/CWB0XYA8bzo0kSThX0UTuA.woff2">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/font/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/font/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2">
+      <publishTime>06/05/2016 06:08:12</publishTime>
+    </File>
+    <File Include="Content/fa/font/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/EsvMC5un3kjyUhB9ZEPPwg.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/isZ-wbCXNKAbnjo6_TwHThJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/jSN2CGVDbcVyCnfJfjSdfBJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/mbmhprMH69Zi6eEPBYVFhRJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/mx9Uck6uB63VIKFYnEMXrRJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/oHi30kwQWvpCWqAhzHcCSBJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/oOeFwZNlrTefzLYmlVV1UBJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/PwZc-YbIL414wB9rB1IAPRJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/rGvHdJnr2l75qb0YND9NyBJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/UX6i4JxQDm3fVTc1CPuwqhJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/UyBMtLsHKBKXelqf4x7VRQ.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/font/ZLqKeelYbATG60EpZBSDyxJtnKITppOI_IvcXXDNrsc.woff2">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/arrow-left.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/arrow-right.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/callwithme_Logo.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/counter-bg.jpg">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/devider.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/logo.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/map-bg.jpg">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/marker.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/page-loader.gif">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/partners/1.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/partners/2.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/partners/3.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/partners/4.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/partners/5.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/partners/6.png">
+      <publishTime>06/05/2016 06:08:13</publishTime>
+    </File>
+    <File Include="Content/fa/img/partners/7.png">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/partners/Thumbs.db">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/pat-bg.png">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/portfolio/p1.jpg">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/portfolio/p2.jpg">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/portfolio/p3.jpg">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/portfolio/p4.jpg">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/portfolio/p5.jpg">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/portfolio/p6.jpg">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/portfolio/p7.jpg">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/portfolio/p8.jpg">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/portfolio/p9.jpg">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/portfolio/Thumbs.db">
+      <publishTime>06/05/2016 06:08:14</publishTime>
+    </File>
+    <File Include="Content/fa/img/slider-bg.jpg">
+      <publishTime>06/05/2016 06:08:15</publishTime>
+    </File>
+    <File Include="Content/fa/img/tana_slider_bg.mp4">
+      <publishTime>06/05/2016 06:08:15</publishTime>
+    </File>
+    <File Include="Content/fa/img/team/1.jpg">
+      <publishTime>06/05/2016 06:08:15</publishTime>
+    </File>
+    <File Include="Content/fa/img/team/avatar.png">
+      <publishTime>06/05/2016 06:08:15</publishTime>
+    </File>
+    <File Include="Content/fa/img/team/bigavatar.jpg">
+      <publishTime>06/05/2016 06:08:15</publishTime>
+    </File>
+    <File Include="Content/fa/img/team/Thumbs.db">
+      <publishTime>06/05/2016 06:08:15</publishTime>
+    </File>
+    <File Include="Content/fa/img/testimonial-bg.jpg">
+      <publishTime>06/05/2016 06:08:15</publishTime>
+    </File>
+    <File Include="Content/fa/img/vid.mov">
+      <publishTime>06/11/2016 04:24:15</publishTime>
+    </File>
+    <File Include="Content/fa/img/vid.mp4">
+      <publishTime>06/05/2016 06:08:15</publishTime>
+    </File>
+    <File Include="Content/fa/img/vid.ogv">
+      <publishTime>06/07/2016 06:20:48</publishTime>
+    </File>
+    <File Include="Content/fa/img/vid.webm">
+      <publishTime>06/07/2016 06:06:25</publishTime>
+    </File>
+    <File Include="Content/fa/img/vid_min.gif">
+      <publishTime>06/12/2016 23:35:23</publishTime>
+    </File>
+    <File Include="Content/fa/inc/animations/css/animate.min.css">
+      <publishTime>06/05/2016 06:08:15</publishTime>
+    </File>
+    <File Include="Content/fa/inc/animations/js/wow.min.js">
+      <publishTime>06/05/2016 06:08:15</publishTime>
+    </File>
+    <File Include="Content/fa/inc/bootstrap/css/bootstrap.min.css">
+      <publishTime>06/07/2016 06:55:54</publishTime>
+    </File>
+    <File Include="Content/fa/inc/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>06/05/2016 06:08:15</publishTime>
+    </File>
+    <File Include="Content/fa/inc/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/bootstrap/js/bootstrap.min.js">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/classie.js">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/font-awesome/css/font-awesome.min.css">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/isotope.pkgd.min.js">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/jquery.counterup.min.js">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/jquery.easing.min.js">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/jquery/jquery-1.11.1.min.js">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/owl-carousel/css/grabbing.png">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/owl-carousel/css/owl.carousel.css">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/owl-carousel/css/owl.theme.css">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/owl-carousel/js/owl.carousel.min.js">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/smoothscroll.js">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/stellar/js/jquery.stellar.min.js">
+      <publishTime>06/05/2016 06:08:16</publishTime>
+    </File>
+    <File Include="Content/fa/inc/waypoints.min.js">
+      <publishTime>06/05/2016 06:08:17</publishTime>
+    </File>
+    <File Include="Content/fa/js/ajax.js">
+      <publishTime>06/05/2016 06:08:17</publishTime>
+    </File>
+    <File Include="Content/fa/js/js.js">
+      <publishTime>06/11/2016 04:24:31</publishTime>
+    </File>
+    <File Include="Content/fa/js/theme.js">
+      <publishTime>06/05/2016 06:08:17</publishTime>
+    </File>
+    <File Include="Content/fa/planTana/css.css">
+      <publishTime>06/08/2016 03:28:21</publishTime>
+    </File>
+    <File Include="Content/fa/planTana/ghafori.jpg">
+      <publishTime>06/08/2016 03:28:21</publishTime>
+    </File>
+    <File Include="Content/fa/planTana/gholami.jpg">
+      <publishTime>06/08/2016 03:28:21</publishTime>
+    </File>
+    <File Include="Content/fa/planTana/js.js">
+      <publishTime>06/08/2016 03:28:21</publishTime>
+    </File>
+    <File Include="Content/fa/planTana/tanapic.png">
+      <publishTime>06/08/2016 03:28:21</publishTime>
+    </File>
+    <File Include="Content/fa/planTana/yosefzadeh.jpg">
+      <publishTime>06/08/2016 03:28:22</publishTime>
+    </File>
+    <File Include="Content/fa/tanaTeam/css.css">
+      <publishTime>06/06/2016 03:11:03</publishTime>
+    </File>
+    <File Include="Content/fa/tanaTeam/ghafori.jpg">
+      <publishTime>06/06/2016 02:24:26</publishTime>
+    </File>
+    <File Include="Content/fa/tanaTeam/gholami.jpg">
+      <publishTime>06/06/2016 02:23:35</publishTime>
+    </File>
+    <File Include="Content/fa/tanaTeam/js.js">
+      <publishTime>06/06/2016 00:58:11</publishTime>
+    </File>
+    <File Include="Content/fa/tanaTeam/tanapic.png">
+      <publishTime>06/05/2016 23:20:34</publishTime>
+    </File>
+    <File Include="Content/fa/tanaTeam/yosefzadeh.jpg">
+      <publishTime>06/06/2016 02:25:25</publishTime>
+    </File>
+    <File Include="DataAccess.dbml">
+      <publishTime>06/22/2016 01:47:15</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/17/2016 22:46:46</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/17/2016 22:47:01</publishTime>
+    </File>
+    <File Include="Views/Home/enPlanTana.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faContactTana.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faEBusinessTana.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faHardwareTana.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faIndex.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faInternetTana.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faMobileTana.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faPlanTana.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faServiceTana.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faTanaTeam.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faVasTana.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faVoipTana.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/faWebTana.cshtml">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>06/22/2016 03:33:45</publishTime>
+    </File>
+    <File Include="Views/Home/test.txt">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>06/22/2016 03:09:41</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/22/2016 01:57:27</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

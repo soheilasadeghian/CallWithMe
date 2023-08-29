@@ -1,0 +1,91 @@
+﻿
+.item-tana-img img {
+    display: block;
+    margin: 0px auto;
+    max-width: 90%;
+    -webkit-transform: translateY(-100px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+    .item-tana-img img.animation {
+        -webkit-transform: translateY(0px);
+        opacity: 1;
+    }
+
+.item-tana-text {
+    display: block;
+    margin: 0px auto;
+    max-width: 90%;
+    -webkit-transform: translateX(-100px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+    .item-tana-text.animation {
+        -webkit-transform: translateX(0px);
+        opacity: 1;
+    }
+
+
+.item-tana-person-img img {
+    padding: 15px !important;
+    border-radius: 50% !important;
+    display: block;
+    margin: 0px auto;
+    max-width: 90%;
+    -webkit-transform: translateX(-100px);
+    opacity: 0;
+    transition: border-radius 0.2s ease-in-out 0s,transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+.item-tana-person-img2 img {
+    padding: 15px !important;
+    border-radius: 50% !important;
+    display: block;
+    margin: 0px auto;
+    max-width: 90%;
+    -webkit-transform: translateY(100px);
+    opacity: 0;
+    transition: border-radius 0.2s ease-in-out 0s,transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+    .item-tana-person-img img:hover, .item-tana-person-img2 img:hover {
+        border-radius: 3px !important;
+    }
+
+    .item-tana-person-img img.animation {
+        -webkit-transform: translateX(0px);
+        opacity: 1;
+    }
+    .item-tana-person-img2 img.animation {
+        -webkit-transform: translateY(0px);
+        opacity: 1;
+    }
+.item-tana-person-text {
+    display: block;
+    -webkit-transform: translateX(100px);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out 0s, opacity 0.8s ease-in-out 0s;
+}
+
+    .item-tana-person-text.animation {
+        -webkit-transform: translateX(0px);
+        opacity: 1;
+    }
+
+    .item-tana-person-text span:before {
+        content: ' - ';
+    }
+
+    .item-tana-person-text span {
+        float: right;
+        display: block;
+        text-align: right;
+        padding: 8px 5px;
+        margin: 5px 0px !important;
+    }
+
+    .item-tana-person-text p {
+        line-height: 2em !important;
+    }

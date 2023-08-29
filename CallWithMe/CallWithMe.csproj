@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49F654F7-5EA4-470D-8ADB-4AD480DFA5EF}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CallWithMe</RootNamespace>
+    <AssemblyName>CallWithMe</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DataAccess.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataAccess.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ValidateAntiForgeryTokenOnAllPosts.cs" />
+    <Compile Include="Models\Method.cs" />
+    <Compile Include="Models\Result.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\commonAnimation.css" />
+    <Content Include="Content\commonAnimation.js" />
+    <Content Include="Content\commonStyle.css" />
+    <Content Include="Content\en\component\lightbox\css.css" />
+    <Content Include="Content\en\component\lightbox\setup.js" />
+    <Content Include="Content\en\component\lightbox\simple-lightbox.min.js" />
+    <Content Include="Content\en\component\lightbox\simplelightbox.min.css" />
+    <Content Include="Content\en\css\bodyFont.css" />
+    <Content Include="Content\en\css\mobile.css" />
+    <Content Include="Content\en\css\navbarFont.css" />
+    <Content Include="Content\en\css\reset.css" />
+    <Content Include="Content\en\css\skin\cool-gray.css" />
+    <Content Include="Content\en\css\skin\fresh-lime.css" />
+    <Content Include="Content\en\css\skin\ice-blue.css" />
+    <Content Include="Content\en\css\skin\night-purple.css" />
+    <Content Include="Content\en\css\skin\summer-orange.css" />
+    <Content Include="Content\en\css\style.css" />
+    <Content Include="Content\en\img\arrow-left.png" />
+    <Content Include="Content\en\img\arrow-right.png" />
+    <Content Include="Content\en\img\counter-bg.jpg" />
+    <Content Include="Content\en\img\devider.png" />
+    <Content Include="Content\en\img\logo.png" />
+    <Content Include="Content\en\img\map-bg.jpg" />
+    <Content Include="Content\en\img\marker.png" />
+    <Content Include="Content\en\img\page-loader.gif" />
+    <Content Include="Content\en\img\partners\1.png" />
+    <Content Include="Content\en\img\partners\2.png" />
+    <Content Include="Content\en\img\partners\3.png" />
+    <Content Include="Content\en\img\partners\4.png" />
+    <Content Include="Content\en\img\partners\5.png" />
+    <Content Include="Content\en\img\partners\6.png" />
+    <Content Include="Content\en\img\partners\7.png" />
+    <Content Include="Content\en\img\pat-bg.png" />
+    <Content Include="Content\en\img\portfolio\p1.jpg" />
+    <Content Include="Content\en\img\portfolio\p2.jpg" />
+    <Content Include="Content\en\img\portfolio\p3.jpg" />
+    <Content Include="Content\en\img\portfolio\p4.jpg" />
+    <Content Include="Content\en\img\portfolio\p5.jpg" />
+    <Content Include="Content\en\img\portfolio\p6.jpg" />
+    <Content Include="Content\en\img\portfolio\p7.jpg" />
+    <Content Include="Content\en\img\portfolio\p8.jpg" />
+    <Content Include="Content\en\img\portfolio\p9.jpg" />
+    <Content Include="Content\en\img\slider-bg.jpg" />
+    <Content Include="Content\en\img\team\1.jpg" />
+    <Content Include="Content\en\img\team\avatar.png" />
+    <Content Include="Content\en\img\team\bigavatar.jpg" />
+    <Content Include="Content\en\img\testimonial-bg.jpg" />
+    <Content Include="Content\en\img\vid.mp4" />
+    <Content Include="Content\en\img\vid_min.gif" />
+    <Content Include="Content\en\inc\animations\css\animate.min.css" />
+    <Content Include="Content\en\inc\animations\js\wow.min.js" />
+    <Content Include="Content\en\inc\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\en\inc\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\en\inc\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\en\inc\classie.js" />
+    <Content Include="Content\en\inc\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\en\inc\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\en\inc\isotope.pkgd.min.js" />
+    <Content Include="Content\en\inc\jquery.counterup.min.js" />
+    <Content Include="Content\en\inc\jquery.easing.min.js" />
+    <Content Include="Content\en\inc\jquery\jquery-1.11.1.min.js" />
+    <Content Include="Content\en\inc\owl-carousel\css\grabbing.png" />
+    <Content Include="Content\en\inc\owl-carousel\css\owl.carousel.css" />
+    <Content Include="Content\en\inc\owl-carousel\css\owl.theme.css" />
+    <Content Include="Content\en\inc\owl-carousel\js\owl.carousel.min.js" />
+    <Content Include="Content\en\inc\smoothscroll.js" />
+    <Content Include="Content\en\inc\stellar\js\jquery.stellar.min.js" />
+    <Content Include="Content\en\inc\waypoints.min.js" />
+    <Content Include="Content\en\js\ajax.js" />
+    <Content Include="Content\en\js\js.js" />
+    <Content Include="Content\en\js\theme.js" />
+    <Content Include="Content\bootstrap-rtl.css" />
+    <Content Include="Content\fa\component\lightbox\css.css" />
+    <Content Include="Content\fa\component\lightbox\setup.js" />
+    <Content Include="Content\fa\component\lightbox\simple-lightbox.min.js" />
+    <Content Include="Content\fa\component\lightbox\simplelightbox.min.css" />
+    <Content Include="Content\fa\img\vid.mov" />
+    <Content Include="Content\fa\img\vid_min.gif" />
+    <Content Include="Content\fa\planTana\css.css" />
+    <Content Include="Content\fa\planTana\ghafori.jpg" />
+    <Content Include="Content\fa\planTana\gholami.jpg" />
+    <Content Include="Content\fa\planTana\js.js" />
+    <Content Include="Content\fa\planTana\tanapic.png" />
+    <Content Include="Content\fa\planTana\yosefzadeh.jpg" />
+    <Content Include="Content\fa\css\bodyFont.css" />
+    <Content Include="Content\fa\css\mobile.css" />
+    <Content Include="Content\fa\css\navbarFont.css" />
+    <Content Include="Content\fa\css\reset.css" />
+    <Content Include="Content\fa\css\skin\cool-gray.css" />
+    <Content Include="Content\fa\css\skin\fresh-lime.css" />
+    <Content Include="Content\fa\css\skin\ice-blue.css" />
+    <Content Include="Content\fa\css\skin\night-purple.css" />
+    <Content Include="Content\fa\css\skin\summer-orange.css" />
+    <Content Include="Content\fa\css\style.css" />
+    <Content Include="Content\fa\font\BYekan.svg" />
+    <Content Include="Content\fa\img\arrow-left.png" />
+    <Content Include="Content\fa\img\arrow-right.png" />
+    <Content Include="Content\fa\img\callwithme_Logo.png" />
+    <Content Include="Content\fa\img\counter-bg.jpg" />
+    <Content Include="Content\fa\img\devider.png" />
+    <Content Include="Content\fa\img\logo.png" />
+    <Content Include="Content\fa\img\map-bg.jpg" />
+    <Content Include="Content\fa\img\marker.png" />
+    <Content Include="Content\fa\img\page-loader.gif" />
+    <Content Include="Content\fa\img\partners\1.png" />
+    <Content Include="Content\fa\img\partners\2.png" />
+    <Content Include="Content\fa\img\partners\3.png" />
+    <Content Include="Content\fa\img\partners\4.png" />
+    <Content Include="Content\fa\img\partners\5.png" />
+    <Content Include="Content\fa\img\partners\6.png" />
+    <Content Include="Content\fa\img\partners\7.png" />
+    <Content Include="Content\fa\img\pat-bg.png" />
+    <Content Include="Content\fa\img\portfolio\p1.jpg" />
+    <Content Include="Content\fa\img\portfolio\p2.jpg" />
+    <Content Include="Content\fa\img\portfolio\p3.jpg" />
+    <Content Include="Content\fa\img\portfolio\p4.jpg" />
+    <Content Include="Content\fa\img\portfolio\p5.jpg" />
+    <Content Include="Content\fa\img\portfolio\p6.jpg" />
+    <Content Include="Content\fa\img\portfolio\p7.jpg" />
+    <Content Include="Content\fa\img\portfolio\p8.jpg" />
+    <Content Include="Content\fa\img\portfolio\p9.jpg" />
+    <Content Include="Content\fa\img\slider-bg.jpg" />
+    <Content Include="Content\fa\img\tana_slider_bg.mp4" />
+    <Content Include="Content\fa\img\team\1.jpg" />
+    <Content Include="Content\fa\img\team\avatar.png" />
+    <Content Include="Content\fa\img\team\bigavatar.jpg" />
+    <Content Include="Content\fa\img\testimonial-bg.jpg" />
+    <Content Include="Content\fa\img\vid.mp4" />
+    <Content Include="Content\fa\inc\animations\css\animate.min.css" />
+    <Content Include="Content\fa\inc\animations\js\wow.min.js" />
+    <Content Include="Content\fa\inc\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\fa\inc\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\fa\inc\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\fa\inc\classie.js" />
+    <Content Include="Content\fa\inc\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\fa\inc\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fa\inc\isotope.pkgd.min.js" />
+    <Content Include="Content\fa\inc\jquery.counterup.min.js" />
+    <Content Include="Content\fa\inc\jquery.easing.min.js" />
+    <Content Include="Content\fa\inc\jquery\jquery-1.11.1.min.js" />
+    <Content Include="Content\fa\inc\owl-carousel\css\grabbing.png" />
+    <Content Include="Content\fa\inc\owl-carousel\css\owl.carousel.css" />
+    <Content Include="Content\fa\inc\owl-carousel\css\owl.theme.css" />
+    <Content Include="Content\fa\inc\owl-carousel\js\owl.carousel.min.js" />
+    <Content Include="Content\fa\inc\smoothscroll.js" />
+    <Content Include="Content\fa\inc\stellar\js\jquery.stellar.min.js" />
+    <Content Include="Content\fa\inc\waypoints.min.js" />
+    <Content Include="Content\fa\js\ajax.js" />
+    <Content Include="Content\fa\js\js.js" />
+    <Content Include="Content\fa\js\theme.js" />
+    <Content Include="Content\fa\contactTana\css.css" />
+    <Content Include="Content\fa\contactTana\ghafori.jpg" />
+    <Content Include="Content\fa\contactTana\gholami.jpg" />
+    <Content Include="Content\fa\contactTana\js.js" />
+    <Content Include="Content\fa\contactTana\tanapic.png" />
+    <Content Include="Content\fa\contactTana\yosefzadeh.jpg" />
+    <Content Include="Content\fa\tanaTeam\css.css" />
+    <Content Include="Content\fa\tanaTeam\ghafori.jpg" />
+    <Content Include="Content\fa\tanaTeam\gholami.jpg" />
+    <Content Include="Content\fa\tanaTeam\js.js" />
+    <Content Include="Content\fa\tanaTeam\tanapic.png" />
+    <Content Include="Content\fa\tanaTeam\yosefzadeh.jpg" />
+    <Content Include="game\black.bmp" />
+    <Content Include="game\black.gif" />
+    <Content Include="game\black1.bmp" />
+    <Content Include="game\checkers.html" />
+    <Content Include="game\me1.gif" />
+    <Content Include="game\whit.gif" />
+    <Content Include="game\you1.gif" />
+    <Content Include="Global.asax" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\test.txt" />
+    <Content Include="Views\New Microsoft Word Document.htm" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Views\New Microsoft Word Document_files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\en\font\-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\en\font\1YwB1sO8YE1Lyjf12WNiUA.woff2" />
+    <Content Include="Content\en\font\77FXFjRbGzN4aCrSFhlh3hJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\font\97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\font\CWB0XYA8bzo0kSThX0UTuA.woff2" />
+    <Content Include="Content\en\font\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2" />
+    <Content Include="Content\en\font\dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2" />
+    <Content Include="Content\en\font\ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\en\font\EsvMC5un3kjyUhB9ZEPPwg.woff2" />
+    <Content Include="Content\en\font\Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\en\font\isZ-wbCXNKAbnjo6_TwHThJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\font\jSN2CGVDbcVyCnfJfjSdfBJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\font\mbmhprMH69Zi6eEPBYVFhRJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\font\mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\en\font\mx9Uck6uB63VIKFYnEMXrRJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\font\NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\en\font\oHi30kwQWvpCWqAhzHcCSBJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\font\oOeFwZNlrTefzLYmlVV1UBJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\font\PwZc-YbIL414wB9rB1IAPRJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\font\rGvHdJnr2l75qb0YND9NyBJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\font\RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2" />
+    <Content Include="Content\en\font\u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\en\font\UX6i4JxQDm3fVTc1CPuwqhJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\font\UyBMtLsHKBKXelqf4x7VRQ.woff2" />
+    <Content Include="Content\en\font\ZLqKeelYbATG60EpZBSDyxJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\img\team\Thumbs.db" />
+    <Content Include="Content\en\inc\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\en\inc\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\en\inc\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\en\inc\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\en\inc\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\en\inc\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\en\inc\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\en\inc\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\en\inc\font-awesome\fonts\FontAwesome.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fa\font\1BYekan.eot" />
+    <Content Include="Content\fa\font\1BYekan.ttf" />
+    <Content Include="Content\fa\font\1BYekan.woff" />
+    <Content Include="Content\fa\inc\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fa\inc\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fa\inc\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fa\inc\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\fa\inc\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fa\inc\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fa\inc\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fa\inc\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fa\inc\font-awesome\fonts\FontAwesome.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\faIndex.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fa\font\-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\fa\font\1YwB1sO8YE1Lyjf12WNiUA.woff2" />
+    <Content Include="Content\fa\font\77FXFjRbGzN4aCrSFhlh3hJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\fa\font\97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\fa\font\CWB0XYA8bzo0kSThX0UTuA.woff2" />
+    <Content Include="Content\fa\font\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2" />
+    <Content Include="Content\fa\font\dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2" />
+    <Content Include="Content\fa\font\ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\fa\font\EsvMC5un3kjyUhB9ZEPPwg.woff2" />
+    <Content Include="Content\fa\font\Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\fa\font\isZ-wbCXNKAbnjo6_TwHThJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\fa\font\jSN2CGVDbcVyCnfJfjSdfBJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\fa\font\mbmhprMH69Zi6eEPBYVFhRJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\fa\font\mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\fa\font\mx9Uck6uB63VIKFYnEMXrRJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\fa\font\NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\fa\font\oHi30kwQWvpCWqAhzHcCSBJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\fa\font\oOeFwZNlrTefzLYmlVV1UBJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\fa\font\PwZc-YbIL414wB9rB1IAPRJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\fa\font\rGvHdJnr2l75qb0YND9NyBJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\fa\font\RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2" />
+    <Content Include="Content\fa\font\u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="Content\fa\font\UX6i4JxQDm3fVTc1CPuwqhJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\fa\font\UyBMtLsHKBKXelqf4x7VRQ.woff2" />
+    <Content Include="Content\fa\font\ZLqKeelYbATG60EpZBSDyxJtnKITppOI_IvcXXDNrsc.woff2" />
+    <Content Include="Content\en\img\portfolio\Thumbs.db" />
+    <Content Include="Content\fa\img\partners\Thumbs.db" />
+    <Content Include="Content\fa\img\portfolio\Thumbs.db" />
+    <Content Include="Content\fa\img\team\Thumbs.db" />
+    <Content Include="Content\fa\img\vid.webm" />
+    <Content Include="Content\fa\img\vid.ogv" />
+    <Content Include="Content\en\img\vid.webm" />
+    <Content Include="Content\en\img\vid.ogv" />
+    <Content Include="Content\fa\font\BYekan.eot" />
+    <Content Include="Content\fa\font\BYekan.ttf" />
+    <Content Include="Content\fa\font\BYekan.woff" />
+    <Content Include="DataAccess.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataAccess.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\en\img\partners\Thumbs.db" />
+    <Content Include="Content\en\img\Thumbs.db" />
+    <Content Include="Content\fa\img\Thumbs.db" />
+    <Content Include="Content\fa\tanaTeam\Thumbs.db" />
+    <None Include="Properties\PublishProfiles\p.pubxml" />
+    <Content Include="Views\Home\faTanaTeam.cshtml" />
+    <Content Include="Views\Home\faContactTana.cshtml" />
+    <Content Include="Views\Home\faServiceTana.cshtml" />
+    <Content Include="Views\Home\faPlanTana.cshtml" />
+    <Content Include="Views\Home\enPlanTana.cshtml" />
+    <Content Include="Views\Home\faInternetTana.cshtml" />
+    <Content Include="Views\Home\faVoipTana.cshtml" />
+    <Content Include="Views\Home\faVasTana.cshtml" />
+    <Content Include="Views\Home\faMobileTana.cshtml" />
+    <Content Include="Views\Home\faWebTana.cshtml" />
+    <Content Include="Views\Home\faEBusinessTana.cshtml" />
+    <Content Include="Views\Home\faHardwareTana.cshtml" />
+    <Content Include="Views\Home\faTerms.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataAccess.dbml.layout">
+      <DependentUpon>DataAccess.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4167</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56836/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
