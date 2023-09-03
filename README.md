@@ -9,10 +9,10 @@ Company Website Profile for CallWithMe company
 
 
 ## Overview
-The project “CallWithMe company” is a responsive website made with Asp.Net MVC Technology using C#, Bootstrap, JQuery, Ajax, HTML, CSS, JavaScript, SQL, and EntityFramework.
-As it is responsive, it works well on all devices. The website includes modules like Home, AboutUs, OurServices, OurTeam and ContactUs.
-Whenever anyone submits the contact form or career form, an email is sent on company’s email id so that they get notified about it and can communicate with that person soon.
-The website contains all the modules that meet the project requirement and is doing all the work accurately.
+The project “CallWithMe company” is a responsive website made with Asp.Net MVC Technology using C#, Bootstrap, JQuery, Ajax, HTML, CSS, JavaScript, SQL, and EntityFramework.\
+As it is responsive, it works well on all devices. The website includes modules like Home, AboutUs, OurServices, OurTeam and ContactUs.\
+Whenever anyone submits the contact form or career form, an email is sent on company’s email id so that they get notified about it and can communicate with that person soon.\
+The website contains all the modules that meet the project requirement and is doing all the work accurately.\
 
 ## Tools Used 🛠️
 *  Visual studio app
